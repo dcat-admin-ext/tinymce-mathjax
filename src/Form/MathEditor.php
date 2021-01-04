@@ -20,9 +20,10 @@ class MathEditor extends Field
             'charmap'
         ],
         'toolbar' => [
-            'bold italic underline strikethrough forecolor table image | mathjax 手写公式 LaTex符号 | charmap code | 三角函数 微分表 积分表 平面几何 立体几何 方程表 矩阵 概率 指数对数',
+            'bold italic underline strikethrough forecolor table image | mathjax 手写公式 LaTex符号 | charmap code', // 三角函数 微分表 积分表 平面几何 立体几何 方程表 矩阵 概率 指数对数
         ],
-        'menubar' => '小学公式 初中公式 高中公式 微分 积分 概率论 线性代数 三角函数 平面几何 立体几何',
+        // 'menubar' => '小学公式 初中公式 高中公式 微分 积分 概率论 线性代数 三角函数 平面几何 立体几何',
+        'menubar' => false,
         'menu' => [
             '小学公式' => [ 'title' => '小学公式', 'items' => '加法减法 乘法除法 括号运算 几何公式'],
             '初中公式' => [ 'title' => '初中公式', 'items' => '乘方 开方 二次方程根'],
