@@ -42,7 +42,7 @@ class MathEditor extends Field
         'mathjax' => [
             'lib' => '/vendor/dcat-admin-extensions/dcat-admin-ext/tinymce-mathjax/lib/mathjax/es5/tex-mml-chtml.js',
             'symbols' => [
-                'start' => '$', 'end' => '$'
+                'start' => '\\(', 'end' => '\\)'
             ]
         ],
         'min_height' => 300,

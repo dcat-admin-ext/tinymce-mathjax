@@ -11,8 +11,7 @@ class TinymceMathjaxServiceProvider extends ServiceProvider
 	protected $js = [
 	    'lib/tinymce/tinymce.min.js',
         'js/index.js',
-        'js/ext_toolbar.js',
-        'lib/tinymce/plugins/math/config.js',
+        'js/ext_toolbar.js'
     ];
 	protected $css = [];
 
