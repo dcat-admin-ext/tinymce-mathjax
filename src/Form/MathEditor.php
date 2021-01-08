@@ -48,6 +48,7 @@ class MathEditor extends Field
         'min_height' => 300,
         'save_enablewhendirty' => true,
         'convert_urls' => false,
+        'forced_root_block' => false
     ];
 
     protected $disk;
