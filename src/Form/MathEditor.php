@@ -139,7 +139,7 @@ class MathEditor extends Field
      */
     protected function defaultImageUploadUrl()
     {
-        return $this->formatUrl(route(admin_api_route('tinymce.upload')));
+        return $this->formatUrl(route(admin_api_route_name('tinymce.upload')));
     }
 
     /**

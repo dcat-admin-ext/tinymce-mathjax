@@ -396,7 +396,7 @@ function ext_toolbar(editor) {
     editor.ui.registry.addButton('LaTex符号', {
         text: 'LaTex符号',
         onAction: function (_) {
-            var _url="tinymce-mathjax/math-symbol?id="+editor.id;
+            var _url="/admin/tinymce-mathjax/math-symbol?id="+editor.id;
             if (IsMobile()) {
                 openMobile(_url, "LaTex符号");
             }
